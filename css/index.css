@@ -1,3 +1,11 @@
-.footer{
-    background-color: #252B42;
-}
+@import url(globals.css);
+@import url(components.css);
+@import url(header.css);
+@import url(products.css);
+@import url(footer.css);
+
+
+
+
+
+
