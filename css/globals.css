@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-:root{
-    font-family: Graphik;
+:root {
+    --main-color: #374754;
+    --accent-color: #2091F9;
+    --secondary-color: #252B42;
+    --input-background-color: #f5f5f5;
+    --border-color: #e8e8e8;
+    --white-color: #FFFFFF;
+    --primary-font-family: 'Instrument Sans', sans-serif;
+    --secondary-font-family: 'Roboto', sans-serif;
+
 }
