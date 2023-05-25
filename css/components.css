@@ -1,4 +1,4 @@
-.social-links {
+.social-link {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -27,19 +27,20 @@
 }
 
 .button--primary:hover {
-    background-color: #fff;
+    background-color: var(--white-color);
     color: var(--accent-color);
-  }
-  
-  #hidden-element {
+}
+
+#hidden-element {
     display: none;
-  }
-  
-  @media (min-width: 800px) {
+}
+
+@media (min-width: 800px) {
     #hidden-element {
-      display: contents;
+        display: contents;
     }
-    .social-links {
-      display: flex;
+
+    .social-link {
+        display: flex;
     }
-  }
+}

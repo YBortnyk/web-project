@@ -15,19 +15,21 @@
     align-items: center;
 }
 
-.header__menu-link {
+
+.nav__menu-link {
     color: var(--white-color);
+    font-family: var(--primary-font-family);
     font-size: 15px;
     line-height: 28px;
     text-decoration: none;
     margin-left: 41px;
 }
 
-.header__nav__menu .header__menu-link:hover {
+.nav__menu-link:hover {
     text-decoration: underline;
 }
 
-.header__nav__logo {
+.nav__logo-link {
     width: 186px;
     height: 58px;
     text-align: center;
@@ -36,6 +38,15 @@
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+}
+
+.nav__social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    font-size: 33px;
 }
 
 .header__title {
