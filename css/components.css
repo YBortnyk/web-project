@@ -1,4 +1,4 @@
-.social-link {
+.social-items {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -9,26 +9,45 @@
 
 .menu-link {
     font-family: var(--primary-font-family);
+    color: var(--white-color);
     font-size: 15px;
 }
 
+.header__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
 
-.buttton-link {
-    background-color: var(--accent-color);
+.button--primary {
+    background-color: var(--primary-color);
     border-radius: 35px;
+    box-sizing: border-box;
+    font-family: var(--primary-font-family);
     color: var(--white-color);
+    cursor: pointer;
     font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     text-decoration: none;
+    text-decoration-style: solid;
     transition: all 0.5s ease-in-out;
     width: 236px;
+    height: 52px;
+    padding: 16px 0px 16px 0px;
+    margin: 69px 0px 0px;
 }
 
 .button--primary:hover {
     background-color: var(--white-color);
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 #hidden-element {

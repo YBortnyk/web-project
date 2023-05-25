@@ -11,14 +11,18 @@
 
 .header__nav__container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 50px;
 }
 
 
 .nav__menu-link {
     color: var(--white-color);
     font-family: var(--primary-font-family);
+    flex-direction: row;
+    display: flex;
     font-size: 15px;
     line-height: 28px;
     text-decoration: none;
@@ -62,10 +66,4 @@
     font-size: 28px;
     line-height: 40px;
     padding: 0 10px;
-}
-
-.header__buttton-link {
-    margin-top: 69px;
-    line-height: 20px;
-    height: 52px;
 }

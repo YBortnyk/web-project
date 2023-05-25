@@ -11,26 +11,31 @@
   <header class="header">
     <div class="header__nav">
       <nav class="header__nav__container">
-        <ul class="nav__menu">
-          <li class="nav__menu-item"> <a href="#" class="nav__menu-link">Home</a> </li>
-          <li class="nav__menu-item"> <a href="#" class="nav__menu-link">Product</a> </li>
-          <li class="nav__menu-item"> <a href="#" class="nav__menu-link">Pricing</a> </li>
-          <li class="nav__menu-item"> <a href="#" class="nav__menu-link">About</a> </li>
-          <li class="nav__menu-item"> <a href="#" class="nav__menu-link">Contact</a> </li>
-        </ul>
+        <div class="nav__menu" id="hidden-element">
+          <a href="#" class="nav__menu-link">Home</a>
+          <a href="#" class="nav__menu-link">Product</a>
+          <a href="#" class="nav__menu-link">Pricing</a>
+          <a href="#" class="nav__menu-link">About</a>
+          <a href="#" class="nav__menu-link">Contact</a>
+        </div>
         <a href="#" class="nav__logo-link"> <img src="images/header-images/figma-logo.png" alt="figma logo"></a>
-        <a href="#" class="nav__social-link"> <img src="images/header-images/twitter-icon.png" alt="twitter icon"></a>
-        <a href="#" class="nav__social-link"> <img src="images/header-images/facebook-icon.png" alt="facebook icon"></a>
-        <a href="#" class="nav__social-link"> <img src="images/header-images/linkedIn-icon.png" alt="linkedIn icon"></a>
-    </div>
-    </nav>
-    <!--<div class="header__background">
+        <div class="social__items" id="hidden-element">
+          <a href="#" class="nav__social-link"> <img src="images/header-images/twitter-icon.png" alt="twitter icon"></a>
+          <a href="#" class="nav__social-link"> <img src="images/header-images/facebook-icon.png"
+              alt="facebook icon"></a>
+          <a href="#" class="nav__social-link"> <img src="images/header-images/linkedIn-icon.png"
+              alt="linkedIn icon"></a>
+        </div>
+      </nav>
+      <!--<div class="header__background">
       <img src="images/header-images/background-image.png" alt="picture with laptop">
     </div>-->
-    <h1 class="header__title">The best products start with Figma</h1>
-    <p class="header__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
-    <a class="header__buttton-link" href="#">Try for free</a>
-    </div>
+      <div class="header__info">
+        <h1 class="header__title">The best products start with Figma</h1>
+        <p class="header__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <a href="#" class="header__button-link button--primary">Try for
+          <span id="hidden-element">free</span></a>
+      </div>
   </header>
   <main>
     <section class="features">
