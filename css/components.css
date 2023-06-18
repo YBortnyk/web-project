@@ -63,3 +63,11 @@
         display: flex;
     }
 }
+
+h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+}
