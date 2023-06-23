@@ -65,9 +65,37 @@
 }
 
 h2 {
-    color: var(--secondary-color);
+    color: var(--main-color);
+    font-family: var(--primary-font-family);
+    font-size: 48px;
+    font-weight: 400;
     text-align: center;
-    size: 48px;
     line-height: 55px;
     letter-spacing: 0.2px;
+    padding: 10px;
+    gap: 10px;
+}
+
+h3 {
+    color: var(--main-color);
+    font-family: var(--primary-font-family);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    padding: 10px;
+    gap: 10px;
+}
+
+h4 {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font-family);
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    padding: 10px;
+    gap: 10px;
 }
