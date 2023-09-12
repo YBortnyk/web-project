@@ -1,6 +1,25 @@
-.newsletter {
+.newsletter__content {
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
+}
+
+.subscription-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.subscription-info__description {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    padding: 0px, 10px, 0px, 10px;
+    gap: 10px;
 }
