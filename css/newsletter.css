@@ -5,6 +5,15 @@
     padding: 20px;
 }
 
+.newsletter__image {
+    align-items: center;
+    position: relative;
+    width: 386px;
+    height: 216px;
+    border-radius: 15px;
+    padding: 20px;
+}
+
 .subscription-info {
     align-items: center;
     display: flex;
