@@ -42,13 +42,13 @@
     left: 7.63px;
 }
 
-.features__video-screen {
+.features__video-screen img {
     align-items: center;
     position: relative;
     width: 386px;
-    height: 216px;
+    height: 229px;
     border-radius: 15px;
     padding: 7px, 0px, 7px, 0px;
-    gap: 19.36px;
+    gap: 20px;
 
 }
